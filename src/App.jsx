@@ -59,3 +59,15 @@ function App() {
 }
 
 export default App;
+
+import Description from './components/Description';
+
+function App() {
+    return (
+        <div>
+            <h1>Sip Happens Café</h1>
+            <Description />
+            {/* Інші компоненти */}
+        </div>
+    );
+}
